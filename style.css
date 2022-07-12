@@ -64,4 +64,37 @@ select {
 
 body {
     font-family: var(--ff-kumb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bg-pattern-top.svg) left top -50vh no-repeat, url(./images/bg-pattern-bottom.svg) right bottom -50vh no-repeat;
+    background-size: 50%;
+    background-color: var(--Dark-cyan);
+
+}
+
+/* url(https://picsum.photos/id/1/200/200) right 99vw bottom 0 no-repeat; */
+/* } */
+.card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.stats {
+    display: flex;
+
+    gap: 3rem;
+}
+
+.banner {
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 100px;
 }
